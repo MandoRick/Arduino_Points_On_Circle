@@ -61,6 +61,7 @@ void drawDisplay() {
     int radius1 = 24;
     int radius2 = 30;
     float angle_degrees = i;
+    //calculate_point_on_circle(int radius, int centerX, int centerY, float angle_degrees);
     PointsOnCircle::Point result1 = circlePoints.calculate_point_on_circle(radius1, CENTER_X, CENTER_Y, angle_degrees);
     x1 = result1.x;
     y1 = result1.y;
