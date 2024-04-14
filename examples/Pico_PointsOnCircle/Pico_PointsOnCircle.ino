@@ -33,7 +33,6 @@
 */
 
 #include <GyverOLED.h>
-#include "data.h"
 #include "PointsOnCircle.h"
 
 #define OLED_SPEED (1999999ul)
